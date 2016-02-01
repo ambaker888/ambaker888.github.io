@@ -1,0 +1,121 @@
+/*/* Custom Stylesheet */
+/**
+ *
+ * template from Joash Pereira
+ * Thanks for MaterializeCSS.com
+ */
+
+.default_color{background-color: #16a79d !important}
+
+.default_color_text{color: #16a79d !important}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+#intro, #work, #team {padding-top: 4rem;}
+
+
+#index-banner {
+    min-height: 632px;
+    max-height: 864px;
+    position: relative;
+    background-color: #16a79d;
+}
+
+.text_h {
+    padding: 15% 0;
+    font-size: 6.0em;
+    font-weight: 100;
+    color:white;
+}
+
+.brand-logo{
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    font-style: normal;
+    font-weight: 100;
+    padding: 0;
+    letter-spacing: 7px;
+}
+
+.text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
+
+.span_h2 {font-weight: 300;color: #16a79d;}
+
+.text_b{color: #16a79d;}
+
+.in{font-weight: 400 !important; font-style: normal !important;}
+
+.promo i {
+    color: #16a79d;
+    font-size: 7rem;
+    display: block;
+}
+.card-content a {color: #16a79d;}
+
+.card-content a:hover {color: #16a79d;}
+
+#work, #team{background: rgb(247, 247, 247);}
+
+.text_pink{color:#EF9A9A;}
+
+nav ul a {
+    font-size: 1.2rem;
+    color: #FFF;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: 300;
+    padding: 0px 15px;
+}
+
+.med-font{
+  font-weight: 400 !important;
+}
+
+
+/* Preloader */
+#preloader {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:1200; /* makes sure it stays on top */
+}
+
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(../img/status.gif); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+
+@media only screen and (max-width: 480px) {
+    .text_h {
+        padding: 4% 0;
+        font-size: 5em;
+        font-weight: 100;
+        color: white;
+    }
+}
+
+input, textarea {
+    border-bottom: 1px solid #fff;
+}
+
+nav a.button-collapse {
+    left: -25px;
+}
+
+.background-gray{
+  background-color: rgb(247, 247, 247);
+}
