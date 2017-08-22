@@ -15,13 +15,18 @@ h5 {
 }
 
 .default_color{
-  background-color: #56CEB3 !important
+  background-color: #56CEB3 !important;
+}
+
+.text_wh {
+  color: #fff;
+}
+
+a {
+  background-color: #56CEB3;
 }
 
 /*old styles*/
-.default_color_text{
-  color: #16a79d !important
-}
 
 .icon-block {
     padding: 0 15px;
