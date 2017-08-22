@@ -15,7 +15,7 @@ h5 {
 }
 
 .default_color{
-  background-color: #56CEB3 !important;
+  background-color: #56CEB3;
 }
 
 .text_wh {
@@ -23,7 +23,7 @@ h5 {
 }
 
 a {
-  background-color: #56CEB3;
+  color: #56CEB3;
 }
 
 /*old styles*/
