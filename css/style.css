@@ -1,12 +1,19 @@
- body {
+body {
   font-size: 16px;
   font-family: 'Merriweather Sans', sans-serif;
 }
 
- h4 {
+h1,
+h4 {
   font-family: 'PT Serif', serif;
- }
+}
 
+.card-title {
+  font-family: 'PT Serif', serif;
+}
+
+
+/*old styles*/
 .default_color{
   background-color: #16a79d !important
 }
@@ -69,7 +76,6 @@
 .text_pink{color:#EF9A9A;}
 
 nav ul a {
-    font-size: 1.2rem;
     color: #FFF;
     letter-spacing: 2px;
     display: block;
