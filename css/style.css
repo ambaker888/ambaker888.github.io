@@ -4,7 +4,9 @@ body {
 }
 
 h1,
-h4 {
+h2,
+h4,
+h5 {
   font-family: 'PT Serif', serif;
 }
 
@@ -29,28 +31,9 @@ h4 {
 
 
 #index-banner {
-    min-height: 632px;
-    max-height: 864px;
-    position: relative;
-    background-color: #16a79d;
-}
-
-.text_h {
-    padding: 15% 0;
-    font-size: 6.0em;
-    font-weight: 100;
-    color:white;
-}
-
-.brand-logo{
-    position: absolute;
-    color: #fff;
-    display: inline-block;
-    font-size: 2.1rem;
-    font-style: normal;
-    font-weight: 100;
-    padding: 0;
-    letter-spacing: 7px;
+  min-height: 632px;
+  max-height: 864px;
+  position: relative;
 }
 
 .text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
@@ -61,18 +44,11 @@ h4 {
 
 .in{font-weight: 400 !important; font-style: normal !important;}
 
-.promo i {
-    color: #16a79d;
-    font-size: 7rem;
-    display: block;
-}
 .card-content a {color: #16a79d;}
 
 .card-content a:hover {color: #16a79d;}
 
 #work, #team{background: rgb(247, 247, 247);}
-
-.text_pink{color:#EF9A9A;}
 
 nav ul a {
     color: #FFF;
@@ -117,10 +93,6 @@ nav ul a {
         font-weight: 100;
         color: white;
     }
-}
-
-nav a.button-collapse {
-    left: -25px;
 }
 
 .background-gray{
