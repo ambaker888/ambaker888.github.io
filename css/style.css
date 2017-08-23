@@ -9,9 +9,13 @@ body {
 h1,
 h2,
 h4,
-h5,
-.card-title {
+h5 {
   color: #000;
+  font-family: 'PT Serif', serif;
+}
+
+.card-title {
+  text-align: center;
   font-family: 'PT Serif', serif;
 }
 
@@ -32,42 +36,17 @@ a {
 }
 
 /*old styles*/
-
-.icon-block {
-    padding: 0 15px;
-}
-
-#intro, #work, #team {padding-top: 4rem;}
-
-
 #index-banner {
   min-height: 632px;
   max-height: 864px;
   position: relative;
 }
 
-.in{font-weight: 400 !important; font-style: normal !important;}
-
-.card-content a {color: #16a79d;}
-
 .card-content a:hover {color: #16a79d;}
 
 #work {
   background: rgb(247, 247, 247);
 }
-
-nav ul a {
-    color: #FFF;
-    letter-spacing: 2px;
-    display: block;
-    font-weight: 300;
-    padding: 0px 15px;
-}
-
-.med-font{
-  font-weight: 400 !important;
-}
-
 
 /* Preloader */
 #preloader {
