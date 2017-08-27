@@ -1,13 +1,14 @@
 body {
-  font-size: 16px;
+  font-size: 17px;
   font-family: 'Merriweather Sans', sans-serif;
-  color: #555;
+  color: #526173;
   height: 100%;
   margin: 0;
 }
 
 h1,
 h2,
+h3,
 h4,
 h5 {
   color: #000;
@@ -15,7 +16,7 @@ h5 {
 }
 
 .card-title {
-  color: #fff;
+  color: #000 !important;
   text-align: center;
   font-family: 'PT Serif', serif;
 }
