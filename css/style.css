@@ -15,7 +15,7 @@ h5 {
 }
 
 .card-title {
-  color: #000;
+  color: #fff;
   text-align: center;
   font-family: 'PT Serif', serif;
 }
@@ -32,9 +32,11 @@ a {
   color: #56CEB3;
 }
 
-.section {
+section {
   height: 100%;
+  min-height: 100vh;
 }
+
 
 /*old styles*/
 #index-banner {
