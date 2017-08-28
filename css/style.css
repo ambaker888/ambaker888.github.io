@@ -21,7 +21,7 @@ h5 {
   font-family: 'PT Serif', serif;
 }
 
-.default_color{
+.default_color {
   background-color: #56CEB3;
 }
 
@@ -38,18 +38,8 @@ section {
   min-height: 100vh;
 }
 
-
-/*old styles*/
-#index-banner {
-  min-height: 632px;
-  max-height: 864px;
-  position: relative;
-}
-
-.card-content a:hover {color: #16a79d;}
-
-#work {
-  background: rgb(247, 247, 247);
+.gray_color {
+  background: #f5f7f9;
 }
 
 /* Preloader */
@@ -82,8 +72,4 @@ section {
         font-weight: 100;
         color: white;
     }
-}
-
-.background-gray{
-  background-color: rgb(247, 247, 247);
 }
