@@ -7,5 +7,5 @@ function loadNav () {
 }
 
 function gotoRoute (route) {
-  $('#content').load(route);
+  $('#content').load('routes/' + route);
 }
