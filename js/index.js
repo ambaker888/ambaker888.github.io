@@ -1,1 +1,3 @@
-index.js
+function loadNav () {
+  $('#nav').load('components/nav.html');
+}
