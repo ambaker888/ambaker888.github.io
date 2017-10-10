@@ -12,6 +12,10 @@ function gotoRoute (route, subroute) {
   if (route != currentRoute) {
     $('#content').load('routes/' + route, function () {
       window.location.href = '#' + (subroute || '');
+      
+      if (!subroute) {
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+      }
     });
   }
 }
