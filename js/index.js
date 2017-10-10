@@ -21,6 +21,7 @@ function gotoRoute (route, anchor) {
 }
 
 function init () {
+  console.log('running init');
   loadNav();
   loadFooter();
   gotoRoute(currentRoute);
