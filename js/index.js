@@ -10,10 +10,10 @@ function loadNav () {
 
 function gotoRoute (route, subroute) {
   if (route != currentRoute) {
-    $('#content').load('routes/' + route);    
-  }
-
-  if (subroute) {
-    window.location.href = '#' + subroute;
+    $('#content').load('routes/' + route, function () {
+      if (subroute) {
+        window.location.href = '#' + subroute;
+      }
+    });
   }
 }
