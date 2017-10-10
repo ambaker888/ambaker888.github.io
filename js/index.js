@@ -1,3 +1,5 @@
+var currentRoute = '';
+
 function loadHead () {
   $('head').load('components/head.html')
 }
@@ -6,6 +8,12 @@ function loadNav () {
   $('#nav').load('components/nav.html');
 }
 
-function gotoRoute (route) {
-  $('#content').load('routes/' + route);
+function gotoRoute (route, subroute) {
+  if (route != currentRoute) {
+    $('#content').load('routes/' + route);    
+  }
+
+  if (subroute) {
+    window.location.href = '#' + subroute;
+  }
 }
