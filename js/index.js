@@ -1,11 +1,15 @@
 var currentRoute = 'home.html';
 
 function loadHead () {
-  $('head').load('components/head.html')
+  $('head').load('components/head.html');
 }
 
 function loadNav () {
   $('#nav').load('components/nav.html');
+}
+
+function loadFooter () {
+  $('#footer').load('components/footer.html');
 }
 
 function gotoRoute (route, anchor) {
@@ -18,4 +22,11 @@ function gotoRoute (route, anchor) {
       }
     });
   }
+}
+
+function init () {
+  loadHead();
+  loadNav();
+  loadFooter();
+  gotoRoute(currentRoute);
 }
