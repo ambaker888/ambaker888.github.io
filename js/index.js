@@ -1,9 +1,5 @@
 var currentRoute = 'home.html';
 
-function loadHead () {
-  $('head').load('components/head.html');
-}
-
 function loadNav () {
   $('#nav').load('components/nav.html');
 }
@@ -25,7 +21,6 @@ function gotoRoute (route, anchor) {
 }
 
 function init () {
-  loadHead();
   loadNav();
   loadFooter();
   gotoRoute(currentRoute);
