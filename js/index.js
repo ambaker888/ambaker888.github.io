@@ -1,4 +1,4 @@
-var currentRoute = 'home.html';
+var currentRoute = '';
 
 function loadNav () {
   $('#nav').load('components/nav.html');
@@ -10,6 +10,7 @@ function loadFooter () {
 
 function gotoRoute (route, anchor) {
   if (route != currentRoute) {
+    currentRoute = route;
     $('#content').load('routes/' + route, function () {
       window.location.href = '#' + (anchor || '');
 
@@ -21,8 +22,7 @@ function gotoRoute (route, anchor) {
 }
 
 function init () {
-  console.log('running init');
   loadNav();
   loadFooter();
-  gotoRoute(currentRoute);
+  gotoRoute('home.html');
 }
