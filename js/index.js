@@ -14,11 +14,9 @@ function gotoRoute (route) {
   $('#content').load('routes/' + page, function () {
     window.location.href = '#' + (anchor || '');
 
-    // window.location.hash = '#' + anchor;
     let element = $('#' + anchor)
     let scrollTop = element.length > 0 ? element.offset().top + $('#content').scrollTop() : 0;
     document.body.scrollTop = document.documentElement.scrollTop = scrollTop;
-    // scrollTo(document.body, scrollTop, 100);
   });
 }
 
