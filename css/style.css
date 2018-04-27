@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
-  font-family: 'Merriweather Sans', sans-serif;
-  color: #526173;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #2f2933;
   min-height: 100%;
   margin: 0;
   background: url("/img/background-img.jpg") repeat 0 0;
@@ -13,24 +13,37 @@ h2,
 h3,
 h4,
 h5 {
-  color: #000;
-  font-family: 'PT Serif', serif;
+  font-family: 'Alegreya', serif;
+  text-transform: uppercase;
+}
+
+.upper-case {
+  text-transform: uppercase;
+}
+
+.header {
+  margin-top: 15rem;
+  color: #fff;
 }
 
 .card {
-  height: 300px;
+  height: 290px;
 }
 
 .text_wh {
   color: #fff;
 }
 
+.text_default {
+  color: #01a2a6;
+}
+
 .background_wh {
-  background-color: rgba(255,255,255,0.7);
+  background-color: rgba(255,255,255,0.9);
 }
 
 a {
-  color: #56CEB3;
+  color: #01a2a6;
 }
 
 section {
@@ -38,34 +51,38 @@ section {
   min-height: 100vh;
 }
 
+.profile{
+  margin-top: 9rem;
+}
+
 /* Preloader */
 #preloader {
-    position: fixed;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background-color:#fff; /* change if the mask should have another color then white */
-    z-index:1200; /* makes sure it stays on top */
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:#fff; /* change if the mask should have another color then white */
+  z-index:1200; /* makes sure it stays on top */
 }
 
 #status {
-    width:200px;
-    height:200px;
-    position:absolute;
-    left:50%; /* centers the loading animation horizontally one the screen */
-    top:50%; /* centers the loading animation vertically one the screen */
-    background-image:url(../img/status.gif); /* path to your loading animation */
-    background-repeat:no-repeat;
-    background-position:center;
-    margin:-100px 0 0 -100px; /* is width and height divided by two */
+  width:200px;
+  height:200px;
+  position:absolute;
+  left:50%; /* centers the loading animation horizontally one the screen */
+  top:50%; /* centers the loading animation vertically one the screen */
+  background-image:url(../img/status.gif); /* path to your loading animation */
+  background-repeat:no-repeat;
+  background-position:center;
+  margin:-100px 0 0 -100px; /* is width and height divided by two */
 }
 
 @media only screen and (max-width: 480px) {
-    .text_h {
-        padding: 4% 0;
-        font-size: 5em;
-        font-weight: 100;
-        color: white;
-    }
+  .text_h {
+      padding: 4% 0;
+      font-size: 5em;
+      font-weight: 100;
+      color: white;
+  }
 }
