@@ -42,9 +42,6 @@ section {
   background: #f5f7f9;
 }
 
-nav ul {
-  margin-top: 25px;
-}
 /* Preloader */
 #preloader {
     position: fixed;

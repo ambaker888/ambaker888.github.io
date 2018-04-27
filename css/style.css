@@ -15,10 +15,8 @@ h5 {
   font-family: 'PT Serif', serif;
 }
 
-.card-title {
-  color: #000 !important;
-  text-align: center;
-  font-family: 'PT Serif', serif;
+.card {
+  height: 300px;
 }
 
 .default_color {

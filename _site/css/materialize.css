@@ -195,24 +195,6 @@
 .pink-text.text-darken-2 {
   color: #c2185b !important; }
 
-.pink.darken-3 {
-  background-color: #ad1457 !important; }
-
-.pink-text.text-darken-3 {
-  color: #ad1457 !important; }
-
-.pink.darken-4 {
-  background-color: #880e4f !important; }
-
-.pink-text.text-darken-4 {
-  color: #880e4f !important; }
-
-.pink.accent-1 {
-  background-color: #ff80ab !important; }
-
-.pink-text.text-accent-1 {
-  color: #ff80ab !important; }
-
 .pink.accent-2 {
   background-color: #ff4081 !important; }
 
@@ -2181,9 +2163,7 @@ footer.page-footer {
   footer.page-footer .footer-copyright {
     overflow: hidden;
     height: 50px;
-    line-height: 50px;
-    color: rgba(255, 255, 255, 0.8);
-    background-color: rgba(51, 51, 51, 0.08); }
+    line-height: 50px; }
 
 table, th, td {
   border: none; }
