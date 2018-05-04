@@ -86,4 +86,5 @@ section {
 nav,
 footer.page-footer {
   background-color: transparent !important;
+  box-shadow: none !important;
 }
